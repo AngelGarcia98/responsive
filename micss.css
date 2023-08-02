@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font: size 2.7em;
+
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px 40 px;
+    border-radius: 10px;
+    border: solid rgba(0, 0, 0, 0, 5);
+
+
+}
+
+button:hover {
+    background-color: rgb(160, 22, 148);
+    ;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 2em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a:hover {
+    color: blue;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90hv;
+    background-image: url(fondo2.PNG);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 700px;
+
+}
+
+
+
+#hero h1 {
+    color: rgb(59, 214, 85);
+}
+
+#subtitulo {
+    font-size: 5em;
+}
+
+#somos-proya .container {
+    text-align: center;
+    padding: 80px 12px;
+
+
+}
+
+#nuestros-programas {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+#nuestros-programas .container {
+    text-align: center;
+}
+
+#nuestros-programas .container {
+    padding: 120px 0px;
+}
+
+#nuestros-programas p {
+    display: none;
+}
+
+
+
+.carta:first-child {
+    background-image: url(angel.PNG);
+    background-repeat: no-repeat;
+    padding-right: 15px;
+    height: 350px;
+    color: red;
+}
+
+#caracteristicas .container {
+    text-align: center;
+    padding: 200px 12px;
+    background-color: rgb(46, 121, 121);
+
+}
+
+#caracteristicas li {
+    margin: 12px 0 px;
+    font-weight: bold;
+
+}
+
+#Aplica-ya {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 100px 12px;
+    height: 80vh;
+
+
+}
+
+#Aplica-ya h2 {
+
+
+    font-size: 100px;
+}
+
+#Aplica-ya button {
+    font-size: 3.75em;
+}
+
+#miMusica {
+    text-align: center;
+    padding: 100px 12px;
+    height: 80vh;
+}
+
+@media (min-width:720px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+
+
+    #somos-proya .image-container {
+
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #nuestros-programas .programas {
+        display: flex;
+        justify-content: center;
+    }
+}
